@@ -5,7 +5,7 @@ const LinkItem_Component = ({pageName}) => {
     return (
         //TODO: Fix the url pagename thingy
         <div className={shopStyle.linkItemComponent}>
-            <Link href={`shop/${pageName.toLowerCase()}`}>
+            <Link href={`/shop/${pageName.toLowerCase()}`}>
                 <a>{pageName}</a>
             </Link>
         </div>
